@@ -1,0 +1,10 @@
+DATA DE EXECUCAO: 17/05/2022 15:43:19
+
+Etapas:
+Importacao dos .dtas:     257.6 segundos
+Preparacao das variaveis:  76.7 segundos
+Calculo dos indicadores:    9.0 segundos
+
+Tempo total:
+Incluindo a importacao:   343.3 segundos
+Excluindo a importacao:    85.7 segundos

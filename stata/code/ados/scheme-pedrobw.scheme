@@ -1,0 +1,115 @@
+* Pedro-Tufte Color Scheme
+* Esquema de gráfico _fortemente_ inspirado pelo tufte.scheme, de Ulrich Atz
+
+*! Version 1.0 26jun2015
+*! Author: Pedro HGF Souza
+*! Date: 26 Junho 2015
+
+#include tufte
+
+* Tamanho do grafico
+	* graphsize             5
+	graphsize x           4.95
+	graphsize y           3.6
+
+* Scatter/line plots
+	* Padrao da linha em line plots
+		linepattern p1lineplot	solid
+		linepattern p2lineplot	longdash	
+		linepattern p3lineplot	shortdash
+		linepattern p4lineplot	"..--.."
+	* Cores das linhas em line plots
+		color p1lineplot	black
+		color p2lineplot    black
+		color p3lineplot    black
+		color p4lineplot    black		
+	* Cores dos marcadores em scatter plots
+		color p1markline	black
+		color p2markline	black
+		color p3markline	black
+		color p4markline	black
+		color p5markline	black
+		color p6markline	black
+		color p7markline	black
+		color p8markline	black
+		color p1markfill	black
+		color p2markfill	white
+		color p3markfill	black
+		color p4markfill	white
+		color p5markfill	black
+		color p6markfill	white
+		color p7markfill	black
+		color p8markfill	black	
+		color p9markfill	black
+		color p10markfill	white	
+	* Marcadores em scatter plots
+		* symbolsize         small
+		* symbolsize p       small
+		symbol p1   circle
+		symbol p2   circle
+		symbol p3	triangle
+		symbol p4	triangle
+		symbol p5	square
+		symbol p6	square
+		symbol p7	X
+		symbol p8 	plus
+		symbol p9 	diamond
+		symbol p10	diamond
+	* Espessura das linhas
+		linewidth	plineplot 	medium 
+		
+* Bar charts
+	* Cor da linha
+		color p1barline	black
+		color p2barline	black
+		color p3barline	black
+		color p4barline	black
+	* Area
+		color p1bar	gs14
+		color p2bar	gs0
+		color p3bar gs16
+		color p4bar gs5
+		color p5bar gs10
+		color p6bar gs3
+
+* Area plots
+	* cor das linhas 
+		color p1arealine gs14	
+		color p2arealine gs14
+		color p3arealine gs14
+		color p4arealine gs14
+		color p5arealine gs14
+		color p6arealine gs14	
+	* cor da area
+		color p1area	gs14
+		color p2area	gs14
+		color p3area	gs14
+		color p4area	gs14
+		color p5area	gs14
+		color p6area	gs14
+
+		
+* Graphregion
+	color	graphregion	white
+	
+* Plotregion e eixos
+	color 		plotregion_line 	black
+	axisstyle 	horizontal_default 	horizontal_noline  
+	axistyle 	vertical_default	vertical_noline
+	gsize axis_title_gap 			vsmall
+	yesno extend_minorgrid_low   	no
+	yesno extend_minorgrid_high 	no
+	yesno extend_majorgrid_low   	no
+	yesno extend_majorgrid_high  	no
+	yesno draw_major__nl_hgrid   	no
+	yesno draw_minor__nl_hgrid   	no
+	yesno draw_majornl__nl_hgrid 	no
+	yesno draw_minornl__nl_hgrid 	no
+
+	
+* Legenda
+	numstyle legend_cols     	3
+	yesno    legend_span 	 	yes
+	gsize    legend_key_xsize	vhuge
+
+
